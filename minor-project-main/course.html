@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width , intial-scale=1.0">
+        <title>The Modern College</title>
+        <link rel="stylesheet" href="college.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+    <body>
+ <section class="sub-header">
+     <nav>
+     <a href="college.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+             <ul>
+                 <li><a href="college.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                 <li><a href="blog.html">BLOG</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="ShowMenu()"></i>
+            </nav>
+            <h1>Our Courses</h1>
+        </section>
+        
+         <!-----Course-->
+         <section class="course">
+            <h1>Courses We Offer</h1>
+            <p></p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Bachelor of Computer Application(BCA)</h3>
+                    <p>BCA is an undergraduate programme in Computer Application.Affiliated to CSS University,Merrut.
+                        <br>
+ 
+                        Selection through GD & Personal Interview at the Campus.
+                         </p>
+                </div>
+                <div class="course-col">
+                    <h3>Master Of Business Administration(MBA)</h3>
+                    <p> MBA is approved by ALL India Council for Technical Education(AICTE),Ministry of HRD,Govt.of india.
+                        It is affiliated to Dr.A.P.J Abdul Kalam Technical University,Lucknow.
+                        <br>
+                        Selection through GD & Personal Interview at the Campus. </p>
+                </div>
+                <div class="course-col">
+                    <h3>Master of Computer Application(MCA)</h3>
+                    <p>MCA is approved by ALL India Council for Technical Education(AICTE),Ministry of HRD,Govt.of india.
+                        It is affiliated to Dr.A.P.J Abdul Kalam Technical University,Lucknow.
+                        <br>
+                        Selection through GD & Personal Interview at the Campus.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!---- Facilities-->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p></p>
+<div class="row">
+
+    <div class="facilities-col">
+        <img src="images/library.png">
+        <h3>Library</h3>
+        <p> Opening the door to knowledge
+            Enrich your life
+            Seating for collaboration and for independent work.
+            Shelves are easy to reach.
+            Technology is accessible to patrons and visible to staff.
+            Furnishings are movable to separate spaces.
+            
+            Two Libraries  is more like integrated Knowledge Resource Centre that is stocked with over 36,000 books;
+             Proquest-Online database with more than 3000 Articles, Abstracts and Indexes. 
+             national and international journals, periodicals, references with 16 News papers along
+              with a collection of more than 2000 CDs
+            , Video Cassettes. Reports, Government Publication, AIRs, ILRs, & Case Studies etc.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h3>Play Ground</h3>
+        <p>Students require a healthy mind in a healthy body. IME provides regular sports facilities.
+            The facilities for both indoor and outdoor games are excellent including fully equipped gym.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h3>Cafeteria</h3>
+        <p>Take off is easy with TMC!!!!
+                
+            While studying …….students often get so Hungry & Tired that Food & Rest cannot appear
+             to them except in the form of CANTEEN and TMC provides its students,
+              staff and faculty with an amazing café experience
+               in the college campus with its well maintained and well equipped Cafeteria.</p>
+    </div>
+</div>
+
+</section>
+
+
+    
+
+<!---- Footer ---->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>To know more contact us on or just go to our about us section for more enquiry</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+
+    </div>
+</section>
+
+<!------Java script for toggle menu------>
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function ShowMenu(){
+        navLinks.style.right = "0";
+    }
+        function HideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+
+    </body>
+</html>
